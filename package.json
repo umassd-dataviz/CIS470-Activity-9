@@ -1,0 +1,16 @@
+{
+  "name": "integration_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage --config jest.config.js",
+    "test:integration": "jest --verbose --coverage --config jest.integration.config.js"  
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
