@@ -4,19 +4,10 @@
 
 This is an integration testing of the calendar application. The program is written in JavaScript. It has the following modules.
 
-main()
-├── getNextDate()
-│   └── lastDayOfMonth()
-│       └── isLeap()
-├── getDayOfWeek()
-├── getZodiacSign()
-├── lastDayOfMonth()
-│   └── isLeap()
-└── friday13th()
-    └── isFriday()
+<img src="./img/tree.png" width="500">
 
 ## Runner
-```node runner.js ``` Allows you to run the program, and modify the inputs in the program.
+```node runner.js ``` Allows you to run and modify the inputs in the program.
 
 ## The Unit test cases
 
