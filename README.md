@@ -4,7 +4,7 @@
 
 This is an integration testing of the calendar application. The program is written in JavaScript. It has the following modules.
 
-<img src="./img/tree.png" width="500">
+<img src="./img/tree.png" width="300">
 
 ## Runner
 ```node runner.js ``` Allows you to run and modify the inputs in the program.
