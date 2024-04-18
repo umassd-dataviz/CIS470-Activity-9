@@ -203,7 +203,7 @@ Complete the following table:
 
 2. Use the Cyclomatic Complexity metric to find the MM-Complexity: V(G) = e – n + 2
 
-Submit the results in the form of a MarkDown or Word Document.
+Submit the results in the form of a Zip file of the code and MarkDown or Word Document in myCourses.
 
 
-* It is OK if your tests do now have full coverage in this activity.
+## Final Note: It is OK if your tests do now have full coverage in this activity.
