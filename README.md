@@ -165,12 +165,23 @@ If we consider that in the Calendar call graph with units replaced by numbers (n
 
 # Activity Requirements
 
+## Requirement 1 (40 points)
 
-## Requirement 1
+- Add a getPrevious Day function to the Calendar Program. Note that an empty function is added in the modules folder.
 
-In the first step, draw the Neighborhood Integration graph (call graph) for the main function.
+- Add the unit test for the getPreviousDay function (use the Jest file for getNextDate and modify it). Note that a placeholder is added in the unit test folder.
 
-## Requirement 2
+- Add it to the main function. Note that a placeholder is added in the main function.
+
+- Add the Mock function to the Integration Test (Steps are described above). Note that a placeholder is added in the integration test folder.
+
+- Draw the Functional decomposition of the Calendar Program (check slides for the diagram). Include the new functions in the diagram.
+
+## Requirement 2 (20 points)
+
+In the first step, draw function Integration graph (call graph) for the main function (no messages in the call graph).
+
+## Requirement 3 (20 points)
 
 Complete the following table:
 
@@ -184,11 +195,15 @@ Complete the following table:
 ...
 
 
-## Requirement 3, Find the MM-Complexity
+## Requirement 4, Find the MM-Complexity (20 points)
 
-1. You need to draw the call graph for the main function: See example below.
+1. You need to draw the message call graph for the main function: See example below.
 
 <img src="./img/MM-Complexity.png">
 
 2. Use the Cyclomatic Complexity metric to find the MM-Complexity: V(G) = e – n + 2
 
+Submit the results in the form of a MarkDown or Word Document.
+
+
+* It is OK if your tests do now have full coverage in this activity.

@@ -18,6 +18,14 @@ jest.mock('../modules/getNextDate'.getNextDate, () => ({
   })
 }));
 
+
+// Stub function for getPreviousDate
+// jest.mock('../modules/getPreviousDate'.getPreviousDate, () => ({
+// ..
+
+
+
+
 // Stub function for getDayOfWeek
 jest.mock('../modules/getDayOfWeek'.getDayOfWeek, () => ({
   getDayOfWeek: jest.fn().mockReturnValue('Wednesday') // Mocked output for Wednesday (4/17/2024)
