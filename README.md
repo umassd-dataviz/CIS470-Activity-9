@@ -15,11 +15,11 @@ The unit test cases are written in JEST and are located in the __tests__ folder.
 
 ## Stub and Driver functions
 
-In Jest the stub functions are called Mock functions and are defined with the following syntax.
+In Jest the **stub functions** are called **Mock functions** and are defined with the following syntax.
 
 ```jest.mock(moduleName, factoryFunction, options); ```
 
-For example, the following stub function is used to mock the lastDayOfMonth function.
+For example, the following stub function is used to mock the `lastDayOfMonth` function.
 
 ### Automatic Mocking
 
@@ -29,7 +29,8 @@ If you call `jest.mock(moduleName)` without a factory function, Jest will automa
 
 ### Manual Mocking
 
-```jest.mock('./modules/lastDayOfMonth', () => ({
+```
+jest.mock('./modules/lastDayOfMonth', () => ({
     lastDayOfMonth: jest.fn(() => 30)
   }));
 ```
@@ -45,7 +46,8 @@ In the integration test, you can use the Mock functions. For example, you can us
 
 In the unit test, you can use the Mock functions. For example, you can use the lastDayOfMonth function in the test file.
 
-```test('lastDayOfMonth', () => {
+```
+  test('lastDayOfMonth', () => {
     const mockValue = 30;   
 
     expect(lastDayOfMonth()).toBe(mockValue);
@@ -77,7 +79,7 @@ jest.mock('../modules/isValidDate'.isValidDate, () => ({
 }))
 ```
 
-// Stub function for getNextDate
+### Stub function for getNextDate
 
 ```
 jest.mock('../modules/getNextDate'.getNextDate, () => ({
@@ -87,7 +89,7 @@ jest.mock('../modules/getNextDate'.getNextDate, () => ({
 }));
 ```
 
-// Stub function for getDayOfWeek
+### Stub function for getDayOfWeek
 ```
 jest.mock('../modules/getDayOfWeek'.getDayOfWeek, () => ({
   getDayOfWeek: jest.fn().mockReturnValue('Wednesday') // Mocked output for Wednesday (4/17/2024)
