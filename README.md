@@ -208,4 +208,4 @@ Complete the following table:
 Submit the results in the form of a Zip file of the code and MarkDown or Word Document in myCourses.
 
 
-## Final Note: It is OK if your tests do now have full coverage in this activity.
+## Final Note: It is OK if your tests do not have full coverage in this activity.
